@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 0 5px;
+  z-index: 1;
+  filter: grayscale(1);
+  color: inherit;
+  cursor: pointer;
+
+  &.active {
+    filter: grayscale(0);
+
+    .circle {
+      opacity: 1;
+    }
+  }
+
+  &:hover {
+    .label {
+      opacity: 1;
+      transform: translateY(10px);
+    }
+  }
+
+  svg {
+    height: 24px;
+  }
+}
+
+.label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  top: 100%;
+  opacity: 0;
+  transform: translateY(0);
+  transition: transform var(--transition-duration), opacity var(--transition-duration);
+  z-index: -1;
+}
+
+

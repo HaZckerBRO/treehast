@@ -1,0 +1,30 @@
+:root {
+  --color-primary: #fff;
+  --color-secondary: #d2d2d2;
+  --bcg-primary: #212121;
+  --bcg-secondary: #232323;
+  --border-color: #363636;
+
+  --color-scroll: rgba(0, 0, 0, 0.15);
+  --color-scroll-hover: rgba(0, 0, 0, 0.3);
+
+  --gold: gold;
+  --lime: #a4ec13;
+  --purple: #8e41ff;
+
+  --current-theme: var(--gold);
+
+  --transition-duration: 300ms;
+
+  --header-height: 34px;
+}
+
+html[data-theme="dark"] {
+  --color-primary: #fff;
+  --color-secondary: #d2d2d2;
+  --bcg-primary: #151515;
+  --bcg-secondary: #232323;
+  --border-color: #363636;
+  --color-scroll: rgba(255, 255, 255, 0.15);
+  --color-scroll-hover: rgba(255, 255, 255, 0.3);
+}
