@@ -25,6 +25,7 @@
           ["@pages", "./src/renderer/app/pages"],
           ["@layouts", "./src/renderer/app/layouts"],
           ["@components", "./src/renderer/app/components"],
+          ["@router", "./src/renderer/app/router"],
           ["@icons", "./src/renderer/app/icons"],
           ["@common", "./src/common"],
           ["@main", "./src/main"],
