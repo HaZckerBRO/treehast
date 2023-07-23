@@ -1,13 +1,20 @@
 import * as React from 'react';
-import { Header } from '@layouts';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { AppRouter } from '@router';
+import { Header, PageContent } from '@layouts';
 import './variables.scss';
 import './index.scss';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <Header />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <PageContent>
+          <AppRouter />
+        </PageContent>
+      </div>
+    </Router>
   );
 };
 

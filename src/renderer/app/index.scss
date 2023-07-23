@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 body {
   color: var(--color-primary);
   background-color: var(--bcg-secondary);

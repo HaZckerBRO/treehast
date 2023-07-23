@@ -1,6 +1,6 @@
-import React, { FC } from 'react';
+import * as React from 'react';
 
-const Template: FC = () => {
+const Template: React.FC = () => {
   const iconId = 'IconTemplate';
 
   const css = `
@@ -37,7 +37,9 @@ const Template: FC = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <style type="text/css">{css}</style>
+
       <rect className="st0" height="6" width="10" x="11" y="13" />
+
       <rect className="st0" height="6" width="10" x="21" y="13" />
       <rect className="st0" height="6" width="10" x="1" y="13" />
       <rect className="st0" height="6" width="10" x="16" y="19" />

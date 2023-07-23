@@ -1,11 +1,12 @@
 import * as React from 'react';
-import s from './index.module.scss';
 import { Navigation } from '@layouts';
+import { Logo } from '@components';
+import s from './index.module.scss';
 
 const Header: React.FC = () => {
   return (
     <div className={s.container}>
-      <div>1</div>
+      <Logo />
       <Navigation />
       <div>3</div>
     </div>

@@ -1,6 +1,6 @@
-import React, { FC } from 'react';
+import * as React from 'react';
 
-const Structure: FC = () => {
+const Structure: React.FC = () => {
   return (
     <svg
       viewBox="0 0 24 24"
