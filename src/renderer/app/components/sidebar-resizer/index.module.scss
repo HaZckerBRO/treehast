@@ -1,0 +1,9 @@
+.container {
+  position: absolute;
+  cursor: w-resize;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 2px;
+  background-color: var(--border-color);
+}

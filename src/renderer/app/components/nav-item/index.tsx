@@ -1,7 +1,7 @@
 import * as React from 'react';
+import { NavLink, useLocation } from 'react-router-dom';
 import cn from 'classnames';
 import s from './index.module.scss';
-import { NavLink, useLocation } from 'react-router-dom';
 
 interface Props {
   icon: React.ReactNode;

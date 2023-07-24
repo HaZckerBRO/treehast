@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { AppRouter } from '@router';
 import { Header, PageContent } from '@layouts';
 import './variables.scss';

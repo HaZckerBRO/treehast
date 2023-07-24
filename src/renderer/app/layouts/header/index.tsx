@@ -6,7 +6,7 @@ import s from './index.module.scss';
 const Header: React.FC = () => {
   return (
     <div className={s.container}>
-      <Logo />
+      <Logo withText />
       <Navigation />
       <div>3</div>
     </div>
