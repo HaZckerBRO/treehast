@@ -20,6 +20,7 @@
   &:hover {
     .label {
       opacity: 1;
+      transition-delay: 1.2s;
       transform: translateY(10px);
     }
   }

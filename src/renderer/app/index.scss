@@ -11,6 +11,13 @@ a {
   text-decoration: inherit;
 }
 
+input {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  color: inherit;
+}
+
 body {
   color: var(--color-primary);
   background-color: var(--bcg-secondary);

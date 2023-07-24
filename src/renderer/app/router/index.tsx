@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import * as pages from '@pages';
 
 enum PathNames {
-  Main = '*',
+  Main = '',
   Structure = '/structure',
   Templates = '/templates',
 }
@@ -11,9 +11,9 @@ enum PathNames {
 const AppRouter: React.FC = () => {
   return (
     <Routes>
-      <Route path={PathNames.Main} element={<h1>Main</h1>} />
+      <Route path={PathNames.Main} element={<pages.Main />} />
       <Route path={PathNames.Structure} element={<pages.Structure />} />
-      <Route path={PathNames.Templates} element={<h1>Templates</h1>} />
+      <Route path={PathNames.Templates} element={<pages.Templates />} />
     </Routes>
   );
 };

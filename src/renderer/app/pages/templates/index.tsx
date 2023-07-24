@@ -4,7 +4,7 @@ import { AppContext } from '@context';
 import { Sidebar } from '@layouts';
 import s from './index.module.scss';
 
-const PageStructure: FC = () => {
+const PageMain: FC = () => {
   const {
     sidebar: {
       currentPage,
@@ -16,10 +16,10 @@ const PageStructure: FC = () => {
     <div className={s.container}>
       <Sidebar />
       <div className={s.content} style={{ paddingLeft: width[currentPage] }}>
-        some words
+        templates page
       </div>
     </div>
   );
 };
 
-export default observer(PageStructure);
+export default observer(PageMain);
