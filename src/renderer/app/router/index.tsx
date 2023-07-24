@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import * as pages from '@pages';
 
 enum PathNames {
-  Main = '*',
+  Main = '',
   Structure = '/structure',
   Templates = '/templates',
 }

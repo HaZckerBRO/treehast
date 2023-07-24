@@ -12,8 +12,6 @@ const PageStructure: FC = () => {
     },
   } = React.useContext(AppContext);
 
-  console.log('width[currentPage]', width[currentPage]);
-
   return (
     <div className={s.container}>
       <Sidebar />
