@@ -36,8 +36,6 @@ class SidebarStore {
     const min = 50;
     const max = 900;
 
-    console.log('max');
-
     if (value < min) {
       this.settings.width[key] = min;
     } else if (value > max) {
