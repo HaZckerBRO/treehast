@@ -17,6 +17,8 @@
       "@assets*": ["./assets/*"],
       "@pages": ["./src/renderer/app/pages"],
       "@layouts": ["./src/renderer/app/layouts"],
+      "@store": ["./src/renderer/app/store"],
+      "@context": ["./src/renderer/app/context"],
       "@router": ["./src/renderer/app/router"],
       "@components": ["./src/renderer/app/components"],
       "@icons": ["./src/renderer/app/icons"],

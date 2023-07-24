@@ -4,7 +4,7 @@ import { AppContext } from '@context';
 import { Sidebar } from '@layouts';
 import s from './index.module.scss';
 
-const PageStructure: FC = () => {
+const PageMain: FC = () => {
   const {
     sidebar: {
       currentPage,
@@ -12,16 +12,14 @@ const PageStructure: FC = () => {
     },
   } = React.useContext(AppContext);
 
-  console.log('width[currentPage]', width[currentPage]);
-
   return (
     <div className={s.container}>
       <Sidebar />
       <div className={s.content} style={{ paddingLeft: width[currentPage] }}>
-        some words
+        main page
       </div>
     </div>
   );
 };
 
-export default observer(PageStructure);
+export default observer(PageMain);
